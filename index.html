@@ -1,5 +1,62 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+ 
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <script src="js/new.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="icon" href="public/img/icon.png" type="image/x-icon"/>
+  <title>Space Biology Superhero</title>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html">Space Biology Superhero</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+
+          <a class="nav-link" href="explore.html">Explore</a>
+        </li>
+
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact Us</a>
+        </li>
+
+        <a class="nav-link" href="about.html">About Us</a>
+      </li>
+      <li class="nav-item">
+
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="text" id="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" onClick="search(id)" id="button" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-<link rel="stylesheet" href="/static/style.css">
+<link rel="stylesheet" href="/css/style.css">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <script src="/static/new.js"></script>
 
@@ -14,9 +71,9 @@
       <div class="carousel-item active">
         <img class="d-block w-100" src="https://source.unsplash.com/0o_GEzyargo/600x200" alt="First slide">
         <div class="carousel-caption d-none d-md-block">
-          <h5>Explore More</h5>
+          <h5>Explore Space</h5>
           <p>Explore Space</p>
-          <a href="/explore" class="btn btn-success" role="button">View More</a>
+          <a href="explore.html" class="btn btn-success" role="button">View More</a>
 
         </div>
       </div>
@@ -25,7 +82,7 @@
         <div class="carousel-caption d-none d-md-block">
           <h5>Spaceflight</h5>
           <p>Learn Whant is Spaceflight its working and more</p>
-          <a href="/risk" class="btn btn-success" role="button">View More</a>
+          <a href="spaceflight.html" class="btn btn-success" role="button">View More</a>
 
         </div>
       </div>
@@ -34,7 +91,7 @@
         <div class="carousel-caption d-none d-md-block">
           <h5>NASA's Space Biology Program</h5>
           <p>Know What is NASA's Space Biology Program</p>
-          <a href="/risk" class="btn btn-success" role="button">View More</a>
+          <a href="space_bio_pro.html" class="btn btn-success" role="button">View More</a>
 
         </div>
       </div>
@@ -44,7 +101,7 @@
           <div class="carousel-caption d-none d-md-block">
             <h5>Explore Organisms of Space</h5>
             <p>Know about space organisms there features and many more </p>
-            <a href="/risk" class="btn btn-success" role="button">View More</a>
+            <a href="genelab.html" class="btn btn-success" role="button">View More</a>
 
           </div>
         </div>
@@ -71,7 +128,7 @@
     <div class="cardi mb-3" style="max-width: 800px;">
       <div class="row g-0">
         <div class="col-md-4">
-          <img src="../static/spaceHero.PNG" class="img-fluid rounded-start" alt="...">
+          <img src="public/img/spaceHero.PNG" class="img-fluid rounded-start" alt="...">
         </div>
         <div class="col-md-8">
           <div class="cardi-body">
@@ -95,11 +152,8 @@
             <p class="card-text text-dark"><b>Risks</b></p>
             <p class="card-text">Know Everything about Different types Risks in space flights</p>
             <div class="d-flex justify-content-between align-items-center">
-              <!-- <div class="btn-group">
-                <button type="button" href="/risk.html" class="btn btn-sm btn-outline-primary">View</button>
-                <button type="button" class="btn btn-sm btn-outline-success">Edit</button>
-              </div> -->
-              <a href="/risk" class="btn btn-success" role="button">View More</a>
+        
+              <a href="risk.html" class="btn btn-success" role="button">View More</a>
               
             </div>
           </div>
@@ -113,7 +167,7 @@
             <p class="card-text"><b>Hazards</b></p>
             <p class="card-text">Know Everything about 5 Hazards of the Human Space flights</p>
             <div class="d-flex justify-content-between align-items-center">
-              <a href="/hazard" class="btn btn-success" role="button">View More</a>
+              <a href="hazard.html" class="btn btn-success" role="button">View More</a>
 
             </div>
           </div>
@@ -126,7 +180,7 @@
             <p class="card-text"><b>GeneLab</b></p>
             <p class="card-text">Know Everything about GeneLab Data Repository Search </p>
             <div class="d-flex justify-content-between align-items-center">
-              <a href="/genelab" class="btn btn-success" role="button">View More</a>
+              <a href="genelab.html" class="btn btn-success" role="button">View More</a>
 
             </div>
           </div>
@@ -150,9 +204,41 @@
                 <div class="card-body">
                     <h4 class="card-title"><b>NASA's Space Biology Program</b></h4>
                     <p class="card-text">NASA's Space Biology Program aims building a better understanding of how spaceflight affects living systems in spacecraft such as the International Space Station (ISS), or in ground-based experiments that mimic aspects of spaceflight, and to prepare for future human exploration missions far from Earth. </p>
-                    <button type="button" class="btn btn-success">View More</button>
+                    <a href="space_bio_pro.html" class="btn btn-success" role="button">View More</a>
                 </div>
             </div>
         </div>
     </div>
   </center>
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+    <!-- Footer -->
+<center>
+  <footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
+    
+    <a href="#"><i class="fa fa-facebook-official"></i></a>
+    <a href="#"><i class="fa fa-pinterest-p"></i></a>
+    <a href="#"><i class="fa fa-twitter"></i></a>
+    <a href="#"><i class="fa fa-flickr"></i></a>
+    <a href="#"><i class="fa fa-linkedin"></i></a>
+    <p class="w3-medium">
+    Powered by www.ExploreSpace.com 
+    </p>
+</footer>
+</center>
+</body>
+
+</html>
