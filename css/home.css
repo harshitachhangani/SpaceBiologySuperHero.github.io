@@ -2,6 +2,10 @@
 
 
 /* Globals */
+*{
+  font-family: "Poppins", sans-serif;
+
+}
 a{
   color: #fff !important;
 }
@@ -161,4 +165,19 @@ a{
 }
 .footer p{
   text-align: center;
+}
+
+
+/* Space flight */
+
+.spaceflight-sec{
+  background-image: url(https://source.unsplash.com/9tqAeLDQT-o/1400x350);
+  min-height: 300px;
+  object-fit: contain;
+  color: #fff;
+  background-color: #171717;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
