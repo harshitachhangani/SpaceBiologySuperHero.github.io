@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Satisfy&display=swap');
+
+
+/* Globals */
+a{
+  color: #fff !important;
+}
+/* Navbar Styling */
+.navbar{
+  background-color: rgba(9, 9, 9);
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+}
+.navbar-brand{
+  font-weight: 600;
+
+}
+.navbar-brand:hover,a:hover{
+  color: rgb(232, 255, 252);
+}
+.btn-explore{
+  border: 1.5px solid white;
+  color: #fff;
+  background-color: #0f0f0f;
+  cursor: pointer;
+  outline: none;
+}
+.btn-explore:active{
+  outline: none;
+}
+/* Button Menu Icon */
+.navbar-toggler{
+  border: none;
+  outline: none;
+  color: #fff;
+}
+/* Navbar Style End */
+
+/* Hero Section Styling */
+.hero{
+    position: relative;
+    right: 0;
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 30px 100px;
+    background: #111;
+    transition: 0.5s;
+}
+
+.hero video{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero .text{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 40px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.hero .text h1{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+/* Hero Section Syling ends */
+
+
+/* Featured section */
+
+.featured-sec{
+  background-color: #0f0f0f;
+  background-image: url(../public/img/space_2.jpg);
+  object-fit: contain;
+  color: #fff;
+  background-color: #171717;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+  
+}
+
+.featured-sec h1{
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.featured-subheading{
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.featured-card{
+  object-fit: contain;
+  color: #fff;
+  background-color: #171717;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding:0 !important;
+}
+
+.h-30{
+  height: 30vh;
+}
+
+.featured-card .text{
+  background-color: rgba(0, 0, 0, 0.392);
+  backdrop-filter: blur(5px);
+}
+
+/* Featured Section Ends */
+
+
+/* Nasa Section Starts */
+.nasa-sec{
+  background-color: #0f0f0f;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.nasa-sec h2{
+  font-weight: 600;
+  text-align: center;
+  margin-top: 1.4rem;
+}
+
+.nasa-sec p{
+  color: rgb(212, 212, 212);
+  text-align: justify;
+}
+/* Nasa Section Ends */
+
+/* Footer Starts */
+.footer{
+  padding: 50px;
+  color: #fff;
+  background-color: #000000;
+}
+.footer p{
+  text-align: center;
+}
