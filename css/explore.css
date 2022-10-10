@@ -1,0 +1,143 @@
+/* Hero Section */
+.hero-sec {
+  background-color: #0f0f0f;
+  background-image: url(../public/img/space_3.jpg);
+  object-fit: contain;
+  color: #fff;
+  background-color: #171717;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 10;
+  flex-direction: column;
+}
+.hero-sec h1 {
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 100px;
+}
+.hero-sec p {
+  width: 60%;
+  margin-top: 40px;
+  font-size: 1.2rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/* Intresting topic */
+.intresting-sec {
+  background-color: #0f0f0f;
+  color: #fff;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+.intresting-sec h2 {
+}
+.text p {
+  font-weight: 400 !important;
+}
+
+.shadow-card {
+  -webkit-box-shadow: -1px 0px 19px -1px rgba(199, 199, 199, 0.71);
+  -moz-box-shadow: -1px 0px 19px -1px rgba(199, 199, 199, 0.71);
+  box-shadow: -1px 0px 19px -1px rgba(199, 199, 199, 0.71);
+}
+
+/* Agencies sec */
+.agencies-sec {
+  background-color: #161616;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+}
+.org-card{
+    background:#dcdcdc;
+    color: #0f0f0f;
+    border-radius: 10px;
+    height: 8rem;
+    
+}
+.org-card p{
+    font-size: .8rem;
+}
+.org-card-img {
+  width: 15rem;
+  object-fit: contain;
+
+  padding: 0px 20px;
+}
+
+
+
+/* Hazard */
+
+.cardi {
+  background-color: #121212;
+}
+
+
+
+
+/* Contact */
+.frm-contact {
+  font-family: "Poppins", sans-serif;
+}
+.frm-label {
+  margin-top: 18px;
+  margin-bottom: 6px;
+  font-size: 1rem;
+}
+.frm-input {
+  font-family: "Poppins", sans-serif;
+  border: 0;
+  border: 0.6px solid #ddd;
+  font-size: 0.9rem;
+  padding: 6px 10px;
+  border-radius: 0;
+  border-left: 3px solid #0f268b;
+}
+.frm-input:active {
+  border: none;
+  outline: none;
+}
+.frm-input:focus {
+  border: none;
+  outline: none;
+  border: 0.6px solid rgb(195, 195, 195);
+  border-left: 3px solid #08e2ff;
+}
+
+.btn-send {
+  background-image: linear-gradient(
+    to right,
+    #2fd9ff 0%,
+    #2430dd 51%,
+    #2fd9ff 100%
+  );
+}
+.btn-send {
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 8px 20px;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  outline: none;
+  border: none;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  display: block;
+  cursor: pointer;
+}
+
+.btn-send:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
